@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import axios from 'axios';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,8 @@ class App extends Component {
               {name: "Golden State Warriors", players:["Stephen Curry","Klay Thompson"], colorways:["Blue Away","White Home"]      }
 
             ],
-      selectedTeam:[{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]      }]
+      selectedTeam:[{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]}],
+      inStock: false
     };
 
     this.teamHandleChange = this.teamHandleChange.bind(this);
@@ -52,8 +54,30 @@ class App extends Component {
   }
 
   handleSubmit(event) {
-    alert('You Chose: ' + this.state.teamValue + this.state.playerValue + this.state.colorwayValue + this.state.sizeValue);
     event.preventDefault();
+    var that=this
+    axios.post('/api/check_stock', {
+      team: this.state.teamValue,
+      player: this.state.playerValue,
+      colorway: this.state.colorwayValue,
+      size: this.state.sizeValue
+    })
+    .then(function (response) {
+      console.log(response);
+      if(response.data.length == 0){
+        alert('No jersey available')
+      }
+      else if(response.data[0].quantity > 0){
+        that.setState({inStock: true})
+      }
+      else{
+        that.setState({inStock: false})
+      }
+
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
   }
   render() {
     let team = this.state.teams.filter(team => {
@@ -71,8 +95,11 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <form onSubmit={this.handleSubmit}>
-          <label>
+        <h1>Buckets Stock Checker</h1>
+
+
+        <form className= "checkForm"onSubmit={this.handleSubmit}>
+          <label className="teamName">
             Choose your NBA Team:
             <select value={this.state.teamValue} onChange={this.teamHandleChange}>
               {
@@ -82,7 +109,7 @@ class App extends Component {
               }
             </select>
           </label>
-          <label>
+          <label className="playerName">
             Choose your Player:
             <select value={this.state.playerValue} onChange={this.playerHandleChange}>
               {
@@ -92,7 +119,7 @@ class App extends Component {
               }
             </select>
           </label>
-          <label>
+          <label className="colorwayName">
             Choose your Colorway:
             <select value={this.state.colorwayValue} onChange={this.colorwayHandleChange}>
               {
@@ -102,7 +129,7 @@ class App extends Component {
               }
             </select>
           </label>
-          <label>
+          <label className="sizeName">
             Choose your Size:
             <select value={this.state.sizeValue} onChange={this.sizeHandleChange}>
               <option value="s">S</option>
@@ -112,8 +139,15 @@ class App extends Component {
               <option value="xxl">XXL</option>
             </select>
           </label>
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Check Stock Status" />
         </form>
+
+        <div className= "inventoryStatus">
+          <h1>Stock Status:</h1>
+          {this.state.inStock ? <h1>in Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
+
+
+        </div>
 
       </div>
     );

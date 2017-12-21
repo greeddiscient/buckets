@@ -12,6 +12,41 @@ MongoClient.connect(dburl, (err, db) => {
   var app = express();
   app.use(bodyParser.json());
   app.use(cors())
+
+  //API routes
+
+  app.post('/api/check_stock/',(req,res)=>{
+    // {
+    //   "team": "Cleveland Cavaliers",
+    //   "player": "594a3311734d1d4955bd0daf",
+    //   "colorway": "Red Away",
+    //   "size": "s"
+    // }
+    var query = req.body
+    console.log(req.body);
+    var obj=[]
+
+    db.collection('jerseys').find({$and:[{"team": query.team,"player": query.player,"colorway": query.colorway, "size": query.size}]}, (err, result) => {
+      if (err) {
+        res.send({ 'error': 'An error has occurred' });
+      } else {
+
+        result.each(function(err, docs){
+            console.log("item", docs);
+
+            if (docs == null){
+                res.send(obj);
+            }
+            obj.push(docs);
+
+        });
+
+      }
+    });
+  })
+
+
+
   app.use('/',express.static(path.resolve(__dirname, 'build')));
 
   // Always return the main index.html, so react-router render the route in the client
@@ -25,3 +60,4 @@ MongoClient.connect(dburl, (err, db) => {
   });
 
 })
+//db.jerseys.find({$and:[{team: "Cleveland Cavaliers",player:"LeBron James",colorway: "Red Away"}]})
