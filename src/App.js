@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import axios from 'axios';
+import FontAwesome from 'react-fontawesome';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +17,9 @@ class App extends Component {
 
             ],
       selectedTeam:[{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]}],
-      inStock: false
+      inStock: false,
+      init: true,
+      searching: false
     };
 
     this.teamHandleChange = this.teamHandleChange.bind(this);
@@ -56,6 +59,7 @@ class App extends Component {
   handleSubmit(event) {
     event.preventDefault();
     var that=this
+    this.setState({init: false,searching: true})
     axios.post('/api/check_stock', {
       team: this.state.teamValue,
       player: this.state.playerValue,
@@ -64,6 +68,7 @@ class App extends Component {
     })
     .then(function (response) {
       console.log(response);
+      that.setState({searching: false})
       if(response.data.length == 0){
         alert('No jersey available')
       }
@@ -142,12 +147,16 @@ class App extends Component {
           <input type="submit" value="Check Stock Status" />
         </form>
 
-        <div className= "inventoryStatus">
+        {this.state.searching ? <FontAwesome
+          name='spinner'
+          size='2x'
+          spin
+        /> : null}
+
+        {this.state.init || this.state.searching ? null : <div className= "inventoryStatus">
           <h1>Stock Status:</h1>
           {this.state.inStock ? <h1>in Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
-
-
-        </div>
+        </div>}
 
       </div>
     );
