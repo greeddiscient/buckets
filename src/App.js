@@ -70,6 +70,7 @@ class App extends Component {
       console.log(response);
       that.setState({searching: false})
       if(response.data.length == 0){
+        that.setState({inStock: false})
         alert('No jersey available')
       }
       else if(response.data[0].quantity > 0){
@@ -155,7 +156,7 @@ class App extends Component {
 
         {this.state.init || this.state.searching ? null : <div className= "inventoryStatus">
           <h1>Stock Status:</h1>
-          {this.state.inStock ? <h1>in Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
+          {this.state.inStock ? <h1>In Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
         </div>}
 
       </div>
