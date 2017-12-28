@@ -24,8 +24,12 @@ class AdminLogin extends Component {
   }
 
   handleSubmit(event) {
-    alert("You just tried to login")
     event.preventDefault();
+    alert("You just tried to login")
+    sessionStorage.setItem("user", true)
+    console.log(sessionStorage.getItem("user"))
+    this.props.history.push('/admin')
+
   }
 
   render() {
