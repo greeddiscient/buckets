@@ -25,10 +25,15 @@ class AdminLogin extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    alert("You just tried to login")
-    sessionStorage.setItem("user", true)
-    console.log(sessionStorage.getItem("user"))
-    this.props.history.push('/admin')
+    if(this.state.userNameValue==="philip" && this.state.passwordValue === "philip123"){
+      alert("Login Successful")
+      sessionStorage.setItem("user", true)
+      console.log(sessionStorage.getItem("user"))
+      this.props.history.push('/admin')
+    }
+    else{
+      alert("Incorrect Credentials")
+    }
 
   }
 

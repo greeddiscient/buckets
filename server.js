@@ -14,7 +14,26 @@ MongoClient.connect(dburl, (err, db) => {
   app.use(cors())
 
   //API routes
+  app.get('/api/jerseys/',(req,res)=>{
+    var obj=[];
+    db.collection('jerseys').find({}, (err, result) => {
+      if (err) {
+        res.send({ 'error': 'An error has occurred' });
+      } else {
 
+        result.each(function(err, docs){
+            console.log("item", docs);
+
+            if (docs == null){
+                res.send(obj);
+            }
+            obj.push(docs);
+
+        });
+
+      }
+    });
+  })
   app.post('/api/check_stock/',(req,res)=>{
     // {
     //   "team": "Cleveland Cavaliers",
@@ -40,6 +59,26 @@ MongoClient.connect(dburl, (err, db) => {
             obj.push(docs);
 
         });
+
+      }
+    });
+  })
+
+  app.post('/api/update_stock',(req,res)=>{
+    // {
+    //   "team": "Cleveland Cavaliers",
+    //   "player": "594a3311734d1d4955bd0daf",
+    //   "colorway": "Red Away",
+    //   "size": "s",
+    //   "quantity": 2
+    // }
+    var query= req.body
+
+    db.collection('jerseys').update({$and:[{"team": query.team,"player": query.player,"colorway": query.colorway, "size": query.size}]},{$set:{quantity: query.quantity}}, (err, item) => {
+      if (err) {
+        res.send({'error':'An error has occurred'});
+      } else {
+        res.send(item);
 
       }
     });
