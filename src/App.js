@@ -11,7 +11,7 @@ class App extends Component {
       teamValue: 'Cleveland Cavaliers',
       playerValue: 'LeBron James',
       colorwayValue: 'Red Away',
-      sizeValue: 's',
+      sizeValue: 'S',
       teams: [{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]      },
               {name: "Golden State Warriors", players:["Stephen Curry","Klay Thompson"], colorways:["Blue Away","White Home"]      }
 
@@ -71,7 +71,6 @@ class App extends Component {
       that.setState({searching: false})
       if(response.data.length == 0){
         that.setState({inStock: false})
-        alert('No jersey available')
       }
       else if(response.data[0].quantity > 0){
         that.setState({inStock: true})
@@ -93,13 +92,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
 
         <h1>Buckets Stock Checker</h1>
 
@@ -138,26 +130,22 @@ class App extends Component {
           <label className="sizeName">
             Choose your Size:
             <select value={this.state.sizeValue} onChange={this.sizeHandleChange}>
-              <option value="s">S</option>
-              <option value="m">M</option>
-              <option value="l">L</option>
-              <option value="xl">XL</option>
-              <option value="xxl">XXL</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
             </select>
           </label>
           <input type="submit" value="Check Stock Status" />
         </form>
 
-        {this.state.searching ? <FontAwesome
-          name='spinner'
-          size='2x'
-          spin
-        /> : null}
+        {this.state.searching ? <FontAwesome name='spinner' size='2x' spin /> : null}
 
         {this.state.init || this.state.searching ? null : <div className= "inventoryStatus">
-          <h1>Stock Status:</h1>
-          {this.state.inStock ? <h1>In Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
-        </div>}
+            <h1>Stock Status:</h1>
+            {this.state.inStock ? <h1>In Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
+          </div>}
 
       </div>
     );

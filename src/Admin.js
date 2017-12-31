@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './App.css';
+import FontAwesome from 'react-fontawesome';
+import './Admin.css';
 
 class Admin extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      jerseys: []
+      jerseys: [],
+      searching: true
     };
     this.onCellChange=this.onCellChange.bind(this)
     this.updateStock= this.updateStock.bind(this)
@@ -35,7 +37,10 @@ class Admin extends Component {
     axios.get('/api/jerseys')
     .then(function (response) {
       console.log(response.data);
-      that.setState({jerseys: response.data})
+      that.setState({
+        jerseys: response.data,
+        searching: false
+      })
 
     })
     .catch(function (error) {
@@ -59,15 +64,22 @@ class Admin extends Component {
     })
     .then(function (response) {
       console.log(response);
-      alert("stock updated")
+      window.location.reload()
+      alert("Stock updated")
+
     })
+    .catch(function (error) {
+      console.log(error);
+      alert("Error")
+    });
   }
   render() {
 
     return (
-      <div className="Admin">
-        <h1>Jerseys</h1>
-        <div>
+      <div className="admin">
+        <h1>Buckets Inventory Manager</h1>
+        <div className="jersey-table">
+
           <table className="table table-bordered">
             <thead>
                 <tr>
@@ -92,7 +104,7 @@ class Admin extends Component {
                     ))}
             </tbody>
           </table>
-
+          {this.state.searching ? <FontAwesome name='spinner' size='2x' spin /> : null}
         </div>
 
       </div>
