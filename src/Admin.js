@@ -77,7 +77,7 @@ class Admin extends Component {
 
     return (
       <div className="admin">
-        <h1>Buckets Inventory Manager</h1>
+        <h1>Buckets.sg Inventory Manager</h1>
         <div className="jersey-table">
 
           <table className="table table-bordered">

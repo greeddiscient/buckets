@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './uncledrew.png';
 import axios from 'axios';
 import FontAwesome from 'react-fontawesome';
 import './App.css';
+import teamsData from './data'
 
 class App extends Component {
   constructor(props) {
@@ -12,11 +13,8 @@ class App extends Component {
       playerValue: 'LeBron James',
       colorwayValue: 'Red Away',
       sizeValue: 'S',
-      teams: [{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]      },
-              {name: "Golden State Warriors", players:["Stephen Curry","Klay Thompson"], colorways:["Blue Away","White Home"]      }
-
-            ],
-      selectedTeam:[{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]}],
+      teams: teamsData,
+      selectedTeam: teamsData[0],
       inStock: false,
       init: true,
       searching: false
@@ -29,7 +27,11 @@ class App extends Component {
 
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-
+  // teams: [{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]      },
+  //         {name: "Golden State Warriors", players:["Stephen Curry","Klay Thompson"], colorways:["Blue Away","White Home"]      }
+  //
+  //       ],
+  // selectedTeam:[{name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["Red Away","White Home"]}],
   teamHandleChange(event) {
     let team = this.state.teams.filter(team => {
               return team.name === event.target.value
@@ -92,8 +94,8 @@ class App extends Component {
 
     return (
       <div className="App">
-
-        <h1>Buckets Stock Checker</h1>
+        <img className="logo" src= {logo}></img>
+        <h1>Buckets.sg Stock Checker</h1>
 
 
         <form className= "checkForm"onSubmit={this.handleSubmit}>
@@ -137,7 +139,7 @@ class App extends Component {
               <option value="XXL">XXL</option>
             </select>
           </label>
-          <input type="submit" value="Check Stock Status" />
+          <input className="checkStockButton" type="submit" value="Check Stock Status" />
         </form>
 
         {this.state.searching ? <FontAwesome name='spinner' size='2x' spin /> : null}

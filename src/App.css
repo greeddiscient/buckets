@@ -29,4 +29,19 @@
 
 label{
   display:block;
+  padding:15px;
+}
+select{
+  margin-left: 10px;
+}
+
+.logo{
+  margin-top: 20px;
+  width: 150px;
+}
+.checkStockButton{
+  font-size: 1.5em;
+}
+.checkForm{
+  margin-bottom: 20px;
 }
