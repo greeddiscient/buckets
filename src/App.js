@@ -95,7 +95,7 @@ class App extends Component {
     return (
       <div className="App">
         <img className="logo" src= {logo}></img>
-        <h1>Buckets.sg Stock Checker</h1>
+        <h1>Buckets.SG Stock Checker</h1>
 
 
         <form className= "checkForm"onSubmit={this.handleSubmit}>
@@ -147,6 +147,7 @@ class App extends Component {
         {this.state.init || this.state.searching ? null : <div className= "inventoryStatus">
             <h1>Stock Status:</h1>
             {this.state.inStock ? <h1>In Stock</h1> : <h1>OUT OF STOCK, please transfer $25 if you would like to pre-order (7-12 days wait time)</h1>}
+            <h1>Contact Buckets.SG Admin @ 96818540</h1>
           </div>}
 
       </div>

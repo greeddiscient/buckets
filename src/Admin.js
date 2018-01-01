@@ -3,6 +3,14 @@ import axios from 'axios';
 import FontAwesome from 'react-fontawesome';
 import './Admin.css';
 
+function compare(a,b) {
+  if (a.team < b.team)
+    return -1;
+  if (a.team > b.team)
+    return 1;
+  return 0;
+}
+
 class Admin extends Component {
   constructor(props) {
     super(props);
@@ -37,8 +45,10 @@ class Admin extends Component {
     axios.get('/api/jerseys')
     .then(function (response) {
       console.log(response.data);
+      var sortedjerseys= response.data
+      sortedjerseys.sort(compare)
       that.setState({
-        jerseys: response.data,
+        jerseys: sortedjerseys,
         searching: false
       })
 
@@ -77,7 +87,7 @@ class Admin extends Component {
 
     return (
       <div className="admin">
-        <h1>Buckets.sg Inventory Manager</h1>
+        <h1>Buckets.SG Inventory Manager</h1>
         <div className="jersey-table">
 
           <table className="table table-bordered">
