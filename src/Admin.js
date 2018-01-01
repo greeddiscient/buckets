@@ -8,6 +8,18 @@ function compare(a,b) {
     return -1;
   if (a.team > b.team)
     return 1;
+  if (a.player < b.player)
+    return -1;
+  if (a.player > b.player)
+    return 1;
+  if (a.colorway < b.colorway)
+    return -1;
+  if (a.colorway > b.colorway)
+    return 1;
+  if (a.size < b.size)
+    return -1;
+  if (a.size > b.size)
+    return 1;
   return 0;
 }
 
