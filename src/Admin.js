@@ -144,6 +144,7 @@ class Admin extends Component {
                     <th>Colorway</th>
                     <th>Size</th>
                     <th>Quantity</th>
+                    <th> </th>
                 </tr>
             </thead>
             <tbody>
