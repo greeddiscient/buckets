@@ -74,14 +74,22 @@ class Admin extends Component {
     });
   }
   filterHandleChange(event) {
+    if (event.target.value==="All Teams"){
+      this.setState({
+        filteredTeamValue: event.target.value,
+        filteredJerseys: this.state.jerseys
+      });
+    }
+    else{
+      var filteredJerseys = this.state.jerseys.filter(jersey => {
+                return jersey.team === event.target.value
+              })
+      this.setState({
+        filteredTeamValue: event.target.value,
+        filteredJerseys: filteredJerseys
+      });
+    }
 
-    var filteredJerseys = this.state.jerseys.filter(jersey => {
-              return jersey.team === event.target.value
-            })
-    this.setState({
-      filteredTeamValue: event.target.value,
-      filteredJerseys: filteredJerseys
-    });
     console.log(this.state.filteredJerseys)
   }
   onCellChange(row,value){
