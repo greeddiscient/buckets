@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import FontAwesome from 'react-fontawesome';
 import './Admin.css';
+import teamsData from './data'
 
 function compare(a,b) {
   if (a.team < b.team)
@@ -28,11 +29,13 @@ class Admin extends Component {
     super(props);
     this.state = {
       jerseys: [],
+      filteredJerseys: [],
+      filteredTeamValue: 'All Teams',
       searching: true
     };
     this.onCellChange=this.onCellChange.bind(this)
     this.updateStock= this.updateStock.bind(this)
-
+    this.filterHandleChange=this.filterHandleChange.bind(this)
   }
   componentWillMount(){
     if (this.isLoggedIn()){
@@ -61,6 +64,7 @@ class Admin extends Component {
       sortedjerseys.sort(compare)
       that.setState({
         jerseys: sortedjerseys,
+        filteredJerseys: sortedjerseys,
         searching: false
       })
 
@@ -69,20 +73,30 @@ class Admin extends Component {
       console.log(error);
     });
   }
+  filterHandleChange(event) {
 
+    var filteredJerseys = this.state.jerseys.filter(jersey => {
+              return jersey.team === event.target.value
+            })
+    this.setState({
+      filteredTeamValue: event.target.value,
+      filteredJerseys: filteredJerseys
+    });
+    console.log(this.state.filteredJerseys)
+  }
   onCellChange(row,value){
-    var jerseysArray=this.state.jerseys
+    var jerseysArray=this.state.filteredJerseys
     jerseysArray[row].quantity= value
-    this.setState({jerseys: jerseysArray})
+    this.setState({filteredJerseys: jerseysArray})
   }
   updateStock(index){
     var that=this
     axios.post('/api/update_stock', {
-      team: this.state.jerseys[index].team,
-      player: this.state.jerseys[index].player,
-      colorway: this.state.jerseys[index].colorway,
-      size: this.state.jerseys[index].size,
-      quantity: this.state.jerseys[index].quantity
+      team: this.state.filteredJerseys[index].team,
+      player: this.state.filteredJerseys[index].player,
+      colorway: this.state.filteredJerseys[index].colorway,
+      size: this.state.filteredJerseys[index].size,
+      quantity: this.state.filteredJerseys[index].quantity
     })
     .then(function (response) {
       console.log(response);
@@ -101,7 +115,19 @@ class Admin extends Component {
       <div className="admin">
         <h1>Buckets.SG Inventory Manager</h1>
         <div className="jersey-table">
+          <label className="filterTeam">
+            Filter by Team:
+            <select value={this.state.filteredTeamValue} onChange={this.filterHandleChange}>
+              <option>All Teams</option>
+              {
+                teamsData.map((team, i) => {
+                  return <option>{team.name}</option>
+                })
+              }
 
+
+            </select>
+          </label>
           <table className="table table-bordered">
             <thead>
                 <tr>
@@ -113,7 +139,7 @@ class Admin extends Component {
                 </tr>
             </thead>
             <tbody>
-                {this.state.jerseys.map((jersey, index) => (
+                {this.state.filteredJerseys.map((jersey, index) => (
                         <tr key={index}>
                             <td><p>{jersey.team}</p></td>
                             <td><p>{jersey.player}</p></td>

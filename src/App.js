@@ -9,9 +9,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      teamValue: 'Cleveland Cavaliers',
-      playerValue: 'LeBron James',
-      colorwayValue: 'Red Away',
+      teamValue: teamsData[0].name,
+      playerValue: teamsData[0].players[0],
+      colorwayValue: teamsData[0].colorways[0],
       sizeValue: 'S',
       teams: teamsData,
       selectedTeam: teamsData[0],

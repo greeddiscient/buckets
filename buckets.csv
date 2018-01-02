@@ -1,16 +1,811 @@
 team,player,colorway,size,quantity
-Golden State Warriors,Kevin Durant,White,S,1
-Golden State Warriors,Kevin Durant,White,M,0
-Golden State Warriors,Kevin Durant,White,L,1
-Golden State Warriors,Kevin Durant,White,XL,2
-Golden State Warriors,Kevin Durant,White,XXL,0
-Cleveland Cavaliers,LeBron James,White,S,1
-Cleveland Cavaliers,LeBron James,White,M,2
-Cleveland Cavaliers,LeBron James,White,L,0
-Cleveland Cavaliers,LeBron James,White,XL,1
-Cleveland Cavaliers,LeBron James,White,XXL,1
+Cleveland Cavaliers,Kyrie Irving,Black,L,0
+Cleveland Cavaliers,Kyrie Irving,Black,M,1
+Cleveland Cavaliers,Kyrie Irving,Black,S,0
+Cleveland Cavaliers,Kyrie Irving,Black,XL,0
+Cleveland Cavaliers,Kyrie Irving,Black,XXL,0
+Cleveland Cavaliers,Kyrie Irving,Blue,L,0
+Cleveland Cavaliers,Kyrie Irving,Blue,M,1
+Cleveland Cavaliers,Kyrie Irving,Blue,S,0
+Cleveland Cavaliers,Kyrie Irving,Blue,XL,0
+Cleveland Cavaliers,Kyrie Irving,Blue,XXL,0
+Cleveland Cavaliers,Kyrie Irving,Red,L,1
+Cleveland Cavaliers,Kyrie Irving,Red,M,0
+Cleveland Cavaliers,Kyrie Irving,Red,S,0
+Cleveland Cavaliers,Kyrie Irving,Red,XL,0
+Cleveland Cavaliers,Kyrie Irving,Red,XXL,0
+Cleveland Cavaliers,Kyrie Irving,White,L,0
+Cleveland Cavaliers,Kyrie Irving,White,M,1
+Cleveland Cavaliers,Kyrie Irving,White,S,0
+Cleveland Cavaliers,Kyrie Irving,White,XL,0
+Cleveland Cavaliers,Kyrie Irving,White,XXL,1
+Cleveland Cavaliers,Kyrie Irving,Yellow,L,0
+Cleveland Cavaliers,Kyrie Irving,Yellow,M,1
+Cleveland Cavaliers,Kyrie Irving,Yellow,S,1
+Cleveland Cavaliers,Kyrie Irving,Yellow,XL,0
+Cleveland Cavaliers,Kyrie Irving,Yellow,XXL,0
+Cleveland Cavaliers,Kyrie Irving,Xmas Red,L,0
+Cleveland Cavaliers,Kyrie Irving,Xmas Red,M,1
+Cleveland Cavaliers,Kyrie Irving,Xmas Red,S,1
+Cleveland Cavaliers,Kyrie Irving,Xmas Red,XL,0
+Cleveland Cavaliers,Kyrie Irving,Xmas Red,XXL,0
+Cleveland Cavaliers,Kyrie Irving,Red Cavs,L,0
+Cleveland Cavaliers,Kyrie Irving,Red Cavs,M,1
+Cleveland Cavaliers,Kyrie Irving,Red Cavs,S,1
+Cleveland Cavaliers,Kyrie Irving,Red Cavs,XL,0
+Cleveland Cavaliers,Kyrie Irving,Red Cavs,XXL,0
+Cleveland Cavaliers,LeBron James,Black,L,1
+Cleveland Cavaliers,LeBron James,Black,M,3
+Cleveland Cavaliers,LeBron James,Black,S,0
+Cleveland Cavaliers,LeBron James,Black,XL,0
+Cleveland Cavaliers,LeBron James,Black,XXL,0
+Cleveland Cavaliers,LeBron James,Red,L,1
+Cleveland Cavaliers,LeBron James,Red,M,1
 Cleveland Cavaliers,LeBron James,Red,S,1
-Cleveland Cavaliers,LeBron James,Red,M,2
-Cleveland Cavaliers,LeBron James,Red,L,0
-Cleveland Cavaliers,LeBron James,Red,XL,1
-Cleveland Cavaliers,LeBron James,Red,XXL,1
+Cleveland Cavaliers,LeBron James,Red,XL,0
+Cleveland Cavaliers,LeBron James,Red,XXL,0
+Cleveland Cavaliers,LeBron James,White,L,0
+Cleveland Cavaliers,LeBron James,White,M,2
+Cleveland Cavaliers,LeBron James,White,S,1
+Cleveland Cavaliers,LeBron James,White,XL,0
+Cleveland Cavaliers,LeBron James,White,XXL,0
+Cleveland Cavaliers,LeBron James,Xmas Red,L,0
+Cleveland Cavaliers,LeBron James,Xmas Red,M,2
+Cleveland Cavaliers,LeBron James,Xmas Red,S,1
+Cleveland Cavaliers,LeBron James,Xmas Red,XL,0
+Cleveland Cavaliers,LeBron James,Xmas Red,XXL,0
+Cleveland Cavaliers,LeBron James,Blue1516,L,0
+Cleveland Cavaliers,LeBron James,Blue1516,M,0
+Cleveland Cavaliers,LeBron James,Blue1516,S,2
+Cleveland Cavaliers,LeBron James,Blue1516,XL,0
+Cleveland Cavaliers,LeBron James,Blue1516,XXL,1
+Cleveland Cavaliers,LeBron James,Red Nike,L,1
+Cleveland Cavaliers,LeBron James,Red Nike,M,1
+Cleveland Cavaliers,LeBron James,Red Nike,S,3
+Cleveland Cavaliers,LeBron James,Red Nike,XL,0
+Cleveland Cavaliers,LeBron James,Red Nike,XXL,0
+Cleveland Cavaliers,LeBron James,White Nike,L,1
+Cleveland Cavaliers,LeBron James,White Nike,M,2
+Cleveland Cavaliers,LeBron James,White Nike,S,2
+Cleveland Cavaliers,LeBron James,White Nike,XL,0
+Cleveland Cavaliers,LeBron James,White Nike,XXL,0
+Cleveland Cavaliers,LeBron James,Black Nike,L,0
+Cleveland Cavaliers,LeBron James,Black Nike,M,3
+Cleveland Cavaliers,LeBron James,Black Nike,S,2
+Cleveland Cavaliers,LeBron James,Black Nike,XL,0
+Cleveland Cavaliers,LeBron James,Black Nike,XXL,0
+Cleveland Cavaliers,Derrick Rose,Red Nike,L,0
+Cleveland Cavaliers,Derrick Rose,Red Nike,M,1
+Cleveland Cavaliers,Derrick Rose,Red Nike,S,0
+Cleveland Cavaliers,Derrick Rose,Red Nike,XL,0
+Cleveland Cavaliers,Derrick Rose,Red Nike,XXL,0
+Cleveland Cavaliers,Derrick Rose,White Nike,L,0
+Cleveland Cavaliers,Derrick Rose,White Nike,M,0
+Cleveland Cavaliers,Derrick Rose,White Nike,S,1
+Cleveland Cavaliers,Derrick Rose,White Nike,XL,0
+Cleveland Cavaliers,Derrick Rose,White Nike,XXL,0
+Cleveland Cavaliers,Derrick Rose,Black Nike,L,1
+Cleveland Cavaliers,Derrick Rose,Black Nike,M,2
+Cleveland Cavaliers,Derrick Rose,Black Nike,S,0
+Cleveland Cavaliers,Derrick Rose,Black Nike,XL,0
+Cleveland Cavaliers,Derrick Rose,Black Nike,XXL,0
+Cleveland Cavaliers,JR Smith,Blue,L,0
+Cleveland Cavaliers,JR Smith,Blue,M,2
+Cleveland Cavaliers,JR Smith,Blue,S,0
+Cleveland Cavaliers,JR Smith,Blue,XL,0
+Cleveland Cavaliers,JR Smith,Blue,XXL,0
+Cleveland Cavaliers,Dwayne Wade,Red Nike,L,0
+Cleveland Cavaliers,Dwayne Wade,Red Nike,M,2
+Cleveland Cavaliers,Dwayne Wade,Red Nike,S,1
+Cleveland Cavaliers,Dwayne Wade,Red Nike,XL,0
+Cleveland Cavaliers,Dwayne Wade,Red Nike,XXL,0
+Cleveland Cavaliers,Dwayne Wade,White Nike,L,0
+Cleveland Cavaliers,Dwayne Wade,White Nike,M,2
+Cleveland Cavaliers,Dwayne Wade,White Nike,S,1
+Cleveland Cavaliers,Dwayne Wade,White Nike,XL,0
+Cleveland Cavaliers,Dwayne Wade,White Nike,XXL,0
+Cleveland Cavaliers,Dwayne Wade,Black Nike,L,0
+Cleveland Cavaliers,Dwayne Wade,Black Nike,M,1
+Cleveland Cavaliers,Dwayne Wade,Black Nike,S,1
+Cleveland Cavaliers,Dwayne Wade,Black Nike,XL,0
+Cleveland Cavaliers,Dwayne Wade,Black Nike,XXL,0
+Cleveland Cavaliers,Kevin Love,Red,L,0
+Cleveland Cavaliers,Kevin Love,Red,M,1
+Cleveland Cavaliers,Kevin Love,Red,S,1
+Cleveland Cavaliers,Kevin Love,Red,XL,0
+Cleveland Cavaliers,Kevin Love,Red,XXL,0
+Cleveland Cavaliers,Isaiah Thomas,Red Nike,L,1
+Cleveland Cavaliers,Isaiah Thomas,Red Nike,M,1
+Cleveland Cavaliers,Isaiah Thomas,Red Nike,S,1
+Cleveland Cavaliers,Isaiah Thomas,Red Nike,XL,0
+Cleveland Cavaliers,Isaiah Thomas,Red Nike,XXL,0
+Cleveland Cavaliers,Isaiah Thomas,Black Nike,L,1
+Cleveland Cavaliers,Isaiah Thomas,Black Nike,M,1
+Cleveland Cavaliers,Isaiah Thomas,Black Nike,S,1
+Cleveland Cavaliers,Isaiah Thomas,Black Nike,XL,0
+Cleveland Cavaliers,Isaiah Thomas,Black Nike,XXL,0
+Chicago Bulls,Michael Jordan,White,L,0
+Chicago Bulls,Michael Jordan,White,M,0
+Chicago Bulls,Michael Jordan,White,S,1
+Chicago Bulls,Michael Jordan,White,XL,0
+Chicago Bulls,Michael Jordan,White,XXL,0
+Chicago Bulls,Michael Jordan,Green,L,0
+Chicago Bulls,Michael Jordan,Green,M,2
+Chicago Bulls,Michael Jordan,Green,S,0
+Chicago Bulls,Michael Jordan,Green,XL,0
+Chicago Bulls,Michael Jordan,Green,XXL,0
+Chicago Bulls,Michael Jordan,Black/Red,L,0
+Chicago Bulls,Michael Jordan,Black/Red,M,0
+Chicago Bulls,Michael Jordan,Black/Red,S,0
+Chicago Bulls,Michael Jordan,Black/Red,XL,0
+Chicago Bulls,Michael Jordan,Black/Red,XXL,3
+Chicago Bulls,Michael Jordan,Black Chi,L,0
+Chicago Bulls,Michael Jordan,Black Chi,M,2
+Chicago Bulls,Michael Jordan,Black Chi,S,0
+Chicago Bulls,Michael Jordan,Black Chi,XL,0
+Chicago Bulls,Michael Jordan,Black Chi,XXL,0
+Chicago Bulls,Dwayne Wade,Red,L,0
+Chicago Bulls,Dwayne Wade,Red,M,1
+Chicago Bulls,Dwayne Wade,Red,S,0
+Chicago Bulls,Dwayne Wade,Red,XL,0
+Chicago Bulls,Dwayne Wade,Red,XXL,0
+Chicago Bulls,Dwayne Wade,Red Alt,L,0
+Chicago Bulls,Dwayne Wade,Red Alt,M,1
+Chicago Bulls,Dwayne Wade,Red Alt,S,0
+Chicago Bulls,Dwayne Wade,Red Alt,XL,0
+Chicago Bulls,Dwayne Wade,Red Alt,XXL,0
+Houston Rockets,James Harden,Red Nike,L,0
+Houston Rockets,James Harden,Red Nike,M,1
+Houston Rockets,James Harden,Red Nike,S,1
+Houston Rockets,James Harden,Red Nike,XL,0
+Houston Rockets,James Harden,Red Nike,XXL,0
+Houston Rockets,James Harden,White Nike,L,0
+Houston Rockets,James Harden,White Nike,M,1
+Houston Rockets,James Harden,White Nike,S,1
+Houston Rockets,James Harden,White Nike,XL,0
+Houston Rockets,James Harden,White Nike,XXL,0
+Houston Rockets,Chris Paul,Black,L,0
+Houston Rockets,Chris Paul,Black,M,0
+Houston Rockets,Chris Paul,Black,S,1
+Houston Rockets,Chris Paul,Black,XL,0
+Houston Rockets,Chris Paul,Black,XXL,0
+Houston Rockets,Chris Paul,Red Nike,L,0
+Houston Rockets,Chris Paul,Red Nike,M,1
+Houston Rockets,Chris Paul,Red Nike,S,1
+Houston Rockets,Chris Paul,Red Nike,XL,0
+Houston Rockets,Chris Paul,Red Nike,XXL,0
+Houston Rockets,Chris Paul,White Nike,L,0
+Houston Rockets,Chris Paul,White Nike,M,1
+Houston Rockets,Chris Paul,White Nike,S,1
+Houston Rockets,Chris Paul,White Nike,XL,0
+Houston Rockets,Chris Paul,White Nike,XXL,0
+LA Clippers,Blake Griffin,Black,L,0
+LA Clippers,Blake Griffin,Black,M,1
+LA Clippers,Blake Griffin,Black,S,1
+LA Clippers,Blake Griffin,Black,XL,0
+LA Clippers,Blake Griffin,Black,XXL,0
+LA Clippers,Blake Griffin,White,L,0
+LA Clippers,Blake Griffin,White,M,1
+LA Clippers,Blake Griffin,White,S,0
+LA Clippers,Blake Griffin,White,XL,0
+LA Clippers,Blake Griffin,White,XXL,0
+LA Clippers,DeAndre Jordan,Black,L,0
+LA Clippers,DeAndre Jordan,Black,M,1
+LA Clippers,DeAndre Jordan,Black,S,0
+LA Clippers,DeAndre Jordan,Black,XL,0
+LA Clippers,DeAndre Jordan,Black,XXL,0
+LA Clippers,DeAndre Jordan,White,L,0
+LA Clippers,DeAndre Jordan,White,M,1
+LA Clippers,DeAndre Jordan,White,S,0
+LA Clippers,DeAndre Jordan,White,XL,0
+LA Clippers,DeAndre Jordan,White,XXL,0
+LA Clippers,Chris Paul,Black,L,0
+LA Clippers,Chris Paul,Black,M,1
+LA Clippers,Chris Paul,Black,S,0
+LA Clippers,Chris Paul,Black,XL,0
+LA Clippers,Chris Paul,Black,XXL,0
+LA Clippers,Chris Paul,White,L,0
+LA Clippers,Chris Paul,White,M,0
+LA Clippers,Chris Paul,White,S,1
+LA Clippers,Chris Paul,White,XL,0
+LA Clippers,Chris Paul,White,XXL,0
+Los Angeles Lakers,Kobe Bryant,Black,L,1
+Los Angeles Lakers,Kobe Bryant,Black,M,0
+Los Angeles Lakers,Kobe Bryant,Black,S,0
+Los Angeles Lakers,Kobe Bryant,Black,XL,0
+Los Angeles Lakers,Kobe Bryant,Black,XXL,0
+Los Angeles Lakers,Kobe Bryant,Purple,L,0
+Los Angeles Lakers,Kobe Bryant,Purple,M,1
+Los Angeles Lakers,Kobe Bryant,Purple,S,0
+Los Angeles Lakers,Kobe Bryant,Purple,XL,0
+Los Angeles Lakers,Kobe Bryant,Purple,XXL,0
+Los Angeles Lakers,Kobe Bryant,Yellow,L,0
+Los Angeles Lakers,Kobe Bryant,Yellow,M,1
+Los Angeles Lakers,Kobe Bryant,Yellow,S,1
+Los Angeles Lakers,Kobe Bryant,Yellow,XL,0
+Los Angeles Lakers,Kobe Bryant,Yellow,XXL,0
+Los Angeles Lakers,Kobe Bryant,Retro,L,0
+Los Angeles Lakers,Kobe Bryant,Retro,M,0
+Los Angeles Lakers,Kobe Bryant,Retro,S,1
+Los Angeles Lakers,Kobe Bryant,Retro,XL,0
+Los Angeles Lakers,Kobe Bryant,Retro,XXL,0
+Los Angeles Lakers,D'Angelo Russell,Purple,L,0
+Los Angeles Lakers,D'Angelo Russell,Purple,M,0
+Los Angeles Lakers,D'Angelo Russell,Purple,S,1
+Los Angeles Lakers,D'Angelo Russell,Purple,XL,0
+Los Angeles Lakers,D'Angelo Russell,Purple,XXL,0
+Los Angeles Lakers,D'Angelo Russell,Yellow,L,0
+Los Angeles Lakers,D'Angelo Russell,Yellow,M,1
+Los Angeles Lakers,D'Angelo Russell,Yellow,S,0
+Los Angeles Lakers,D'Angelo Russell,Yellow,XL,0
+Los Angeles Lakers,D'Angelo Russell,Yellow,XXL,0
+Los Angeles Lakers,Shaquille O'Neal,Retro,L,0
+Los Angeles Lakers,Shaquille O'Neal,Retro,M,1
+Los Angeles Lakers,Shaquille O'Neal,Retro,S,1
+Los Angeles Lakers,Shaquille O'Neal,Retro,XL,0
+Los Angeles Lakers,Shaquille O'Neal,Retro,XXL,0
+Los Angeles Lakers,Lonzo Ball,Purple,L,0
+Los Angeles Lakers,Lonzo Ball,Purple,M,1
+Los Angeles Lakers,Lonzo Ball,Purple,S,0
+Los Angeles Lakers,Lonzo Ball,Purple,XL,0
+Los Angeles Lakers,Lonzo Ball,Purple,XXL,0
+Los Angeles Lakers,Lonzo Ball,Yelow,L,0
+Los Angeles Lakers,Lonzo Ball,Yelow,M,0
+Los Angeles Lakers,Lonzo Ball,Yelow,S,1
+Los Angeles Lakers,Lonzo Ball,Yelow,XL,0
+Los Angeles Lakers,Lonzo Ball,Yelow,XXL,0
+Los Angeles Lakers,Lonzo Ball,White Nike,L,0
+Los Angeles Lakers,Lonzo Ball,White Nike,M,1
+Los Angeles Lakers,Lonzo Ball,White Nike,S,1
+Los Angeles Lakers,Lonzo Ball,White Nike,XL,0
+Los Angeles Lakers,Lonzo Ball,White Nike,XXL,0
+Los Angeles Lakers,Kyle Kuzma,White Nike,L,0
+Los Angeles Lakers,Kyle Kuzma,White Nike,M,1
+Los Angeles Lakers,Kyle Kuzma,White Nike,S,1
+Los Angeles Lakers,Kyle Kuzma,White Nike,XL,0
+Los Angeles Lakers,Kyle Kuzma,White Nike,XXL,0
+Los Angeles Lakers,Kyle Kuzma,Yellow Nike,L,0
+Los Angeles Lakers,Kyle Kuzma,Yellow Nike,M,2
+Los Angeles Lakers,Kyle Kuzma,Yellow Nike,S,1
+Los Angeles Lakers,Kyle Kuzma,Yellow Nike,XL,0
+Los Angeles Lakers,Kyle Kuzma,Yellow Nike,XXL,0
+Minnesota Timberwolves,Jimmy Butler,Blue Nike,L,0
+Minnesota Timberwolves,Jimmy Butler,Blue Nike,M,2
+Minnesota Timberwolves,Jimmy Butler,Blue Nike,S,0
+Minnesota Timberwolves,Jimmy Butler,Blue Nike,XL,0
+Minnesota Timberwolves,Jimmy Butler,Blue Nike,XXL,0
+Minnesota Timberwolves,Jimmy Butler,White Nike,L,0
+Minnesota Timberwolves,Jimmy Butler,White Nike,M,1
+Minnesota Timberwolves,Jimmy Butler,White Nike,S,2
+Minnesota Timberwolves,Jimmy Butler,White Nike,XL,0
+Minnesota Timberwolves,Jimmy Butler,White Nike,XXL,0
+Minnesota Timberwolves,Karl Anthony Towns,Blue,L,0
+Minnesota Timberwolves,Karl Anthony Towns,Blue,M,1
+Minnesota Timberwolves,Karl Anthony Towns,Blue,S,1
+Minnesota Timberwolves,Karl Anthony Towns,Blue,XL,0
+Minnesota Timberwolves,Karl Anthony Towns,Blue,XXL,0
+Minnesota Timberwolves,Karl Anthony Towns,Blue Nike,L,0
+Minnesota Timberwolves,Karl Anthony Towns,Blue Nike,M,1
+Minnesota Timberwolves,Karl Anthony Towns,Blue Nike,S,1
+Minnesota Timberwolves,Karl Anthony Towns,Blue Nike,XL,0
+Minnesota Timberwolves,Karl Anthony Towns,Blue Nike,XXL,0
+Minnesota Timberwolves,Karl Anthony Towns,White Nike,L,1
+Minnesota Timberwolves,Karl Anthony Towns,White Nike,M,1
+Minnesota Timberwolves,Karl Anthony Towns,White Nike,S,1
+Minnesota Timberwolves,Karl Anthony Towns,White Nike,XL,0
+Minnesota Timberwolves,Karl Anthony Towns,White Nike,XXL,0
+Minnesota Timberwolves,Andrew Wiggins,Blue Nike,L,1
+Minnesota Timberwolves,Andrew Wiggins,Blue Nike,M,1
+Minnesota Timberwolves,Andrew Wiggins,Blue Nike,S,1
+Minnesota Timberwolves,Andrew Wiggins,Blue Nike,XL,0
+Minnesota Timberwolves,Andrew Wiggins,Blue Nike,XXL,0
+Minnesota Timberwolves,Andrew Wiggins,White Nike,L,0
+Minnesota Timberwolves,Andrew Wiggins,White Nike,M,1
+Minnesota Timberwolves,Andrew Wiggins,White Nike,S,2
+Minnesota Timberwolves,Andrew Wiggins,White Nike,XL,0
+Minnesota Timberwolves,Andrew Wiggins,White Nike,XXL,0
+New York Knicks,Carmelo Anthony,Blue,L,0
+New York Knicks,Carmelo Anthony,Blue,M,0
+New York Knicks,Carmelo Anthony,Blue,S,1
+New York Knicks,Carmelo Anthony,Blue,XL,0
+New York Knicks,Carmelo Anthony,Blue,XXL,0
+New York Knicks,Kristaps Porzingis,Blue Nike,L,0
+New York Knicks,Kristaps Porzingis,Blue Nike,M,1
+New York Knicks,Kristaps Porzingis,Blue Nike,S,0
+New York Knicks,Kristaps Porzingis,Blue Nike,XL,0
+New York Knicks,Kristaps Porzingis,Blue Nike,XXL,0
+Oklahoma City Thunder,Carmelo Anthony,Blue Nike,L,2
+Oklahoma City Thunder,Carmelo Anthony,Blue Nike,M,3
+Oklahoma City Thunder,Carmelo Anthony,Blue Nike,S,2
+Oklahoma City Thunder,Carmelo Anthony,Blue Nike,XL,0
+Oklahoma City Thunder,Carmelo Anthony,Blue Nike,XXL,0
+Oklahoma City Thunder,Carmelo Anthony,White Nike,L,0
+Oklahoma City Thunder,Carmelo Anthony,White Nike,M,2
+Oklahoma City Thunder,Carmelo Anthony,White Nike,S,1
+Oklahoma City Thunder,Carmelo Anthony,White Nike,XL,0
+Oklahoma City Thunder,Carmelo Anthony,White Nike,XXL,0
+Oklahoma City Thunder,Carmelo Anthony,Black Nike,L,1
+Oklahoma City Thunder,Carmelo Anthony,Black Nike,M,0
+Oklahoma City Thunder,Carmelo Anthony,Black Nike,S,0
+Oklahoma City Thunder,Carmelo Anthony,Black Nike,XL,0
+Oklahoma City Thunder,Carmelo Anthony,Black Nike,XXL,0
+Oklahoma City Thunder,Paul George,Blue Nike,L,1
+Oklahoma City Thunder,Paul George,Blue Nike,M,2
+Oklahoma City Thunder,Paul George,Blue Nike,S,2
+Oklahoma City Thunder,Paul George,Blue Nike,XL,0
+Oklahoma City Thunder,Paul George,Blue Nike,XXL,0
+Oklahoma City Thunder,Paul George,White Nike,L,0
+Oklahoma City Thunder,Paul George,White Nike,M,1
+Oklahoma City Thunder,Paul George,White Nike,S,1
+Oklahoma City Thunder,Paul George,White Nike,XL,0
+Oklahoma City Thunder,Paul George,White Nike,XXL,0
+Oklahoma City Thunder,Paul George,Black Nike,L,0
+Oklahoma City Thunder,Paul George,Black Nike,M,1
+Oklahoma City Thunder,Paul George,Black Nike,S,0
+Oklahoma City Thunder,Paul George,Black Nike,XL,0
+Oklahoma City Thunder,Paul George,Black Nike,XXL,0
+Oklahoma City Thunder,Russell Westbrook,Blue,L,0
+Oklahoma City Thunder,Russell Westbrook,Blue,M,1
+Oklahoma City Thunder,Russell Westbrook,Blue,S,0
+Oklahoma City Thunder,Russell Westbrook,Blue,XL,0
+Oklahoma City Thunder,Russell Westbrook,Blue,XXL,0
+Oklahoma City Thunder,Russell Westbrook,Blue Nike,L,1
+Oklahoma City Thunder,Russell Westbrook,Blue Nike,M,1
+Oklahoma City Thunder,Russell Westbrook,Blue Nike,S,0
+Oklahoma City Thunder,Russell Westbrook,Blue Nike,XL,0
+Oklahoma City Thunder,Russell Westbrook,Blue Nike,XXL,0
+Oklahoma City Thunder,Russell Westbrook,White Nike,L,1
+Oklahoma City Thunder,Russell Westbrook,White Nike,M,2
+Oklahoma City Thunder,Russell Westbrook,White Nike,S,1
+Oklahoma City Thunder,Russell Westbrook,White Nike,XL,0
+Oklahoma City Thunder,Russell Westbrook,White Nike,XXL,0
+Oklahoma City Thunder,Russell Westbrook,Black Nike,L,0
+Oklahoma City Thunder,Russell Westbrook,Black Nike,M,0
+Oklahoma City Thunder,Russell Westbrook,Black Nike,S,1
+Oklahoma City Thunder,Russell Westbrook,Black Nike,XL,0
+Oklahoma City Thunder,Russell Westbrook,Black Nike,XXL,0
+Oklahoma City Thunder,Russell Westbrook,Orange Nike,L,0
+Oklahoma City Thunder,Russell Westbrook,Orange Nike,M,1
+Oklahoma City Thunder,Russell Westbrook,Orange Nike,S,0
+Oklahoma City Thunder,Russell Westbrook,Orange Nike,XL,0
+Oklahoma City Thunder,Russell Westbrook,Orange Nike,XXL,0
+Philadelphia 76ers,Ben Simmons,Blue,L,0
+Philadelphia 76ers,Ben Simmons,Blue,M,1
+Philadelphia 76ers,Ben Simmons,Blue,S,0
+Philadelphia 76ers,Ben Simmons,Blue,XL,0
+Philadelphia 76ers,Ben Simmons,Blue,XXL,0
+Philadelphia 76ers,Ben Simmons,Blue Nike,L,0
+Philadelphia 76ers,Ben Simmons,Blue Nike,M,1
+Philadelphia 76ers,Ben Simmons,Blue Nike,S,0
+Philadelphia 76ers,Ben Simmons,Blue Nike,XL,0
+Philadelphia 76ers,Ben Simmons,Blue Nike,XXL,0
+Philadelphia 76ers,Ben Simmons,White Nike,L,0
+Philadelphia 76ers,Ben Simmons,White Nike,M,1
+Philadelphia 76ers,Ben Simmons,White Nike,S,1
+Philadelphia 76ers,Ben Simmons,White Nike,XL,0
+Philadelphia 76ers,Ben Simmons,White Nike,XXL,0
+Philadelphia 76ers,Allen Iverson,Black,L,0
+Philadelphia 76ers,Allen Iverson,Black,M,0
+Philadelphia 76ers,Allen Iverson,Black,S,1
+Philadelphia 76ers,Allen Iverson,Black,XL,0
+Philadelphia 76ers,Allen Iverson,Black,XXL,0
+Philadelphia 76ers,Joel Embiid,Blue Nike,L,0
+Philadelphia 76ers,Joel Embiid,Blue Nike,M,1
+Philadelphia 76ers,Joel Embiid,Blue Nike,S,1
+Philadelphia 76ers,Joel Embiid,Blue Nike,XL,0
+Philadelphia 76ers,Joel Embiid,Blue Nike,XXL,0
+Philadelphia 76ers,Joel Embiid,White Nike,L,0
+Philadelphia 76ers,Joel Embiid,White Nike,M,1
+Philadelphia 76ers,Joel Embiid,White Nike,S,0
+Philadelphia 76ers,Joel Embiid,White Nike,XL,0
+Philadelphia 76ers,Joel Embiid,White Nike,XXL,0
+Portland Trail Blazers,Damian Lillard,Black,L,1
+Portland Trail Blazers,Damian Lillard,Black,M,0
+Portland Trail Blazers,Damian Lillard,Black,S,1
+Portland Trail Blazers,Damian Lillard,Black,XL,0
+Portland Trail Blazers,Damian Lillard,Black,XXL,0
+Portland Trail Blazers,Damian Lillard,Red,L,0
+Portland Trail Blazers,Damian Lillard,Red,M,1
+Portland Trail Blazers,Damian Lillard,Red,S,1
+Portland Trail Blazers,Damian Lillard,Red,XL,0
+Portland Trail Blazers,Damian Lillard,Red,XXL,0
+Portland Trail Blazers,Damian Lillard,White Nike,L,0
+Portland Trail Blazers,Damian Lillard,White Nike,M,0
+Portland Trail Blazers,Damian Lillard,White Nike,S,1
+Portland Trail Blazers,Damian Lillard,White Nike,XL,0
+Portland Trail Blazers,Damian Lillard,White Nike,XXL,0
+Portland Trail Blazers,Terry Porter,Black Retro,L,0
+Portland Trail Blazers,Terry Porter,Black Retro,M,1
+Portland Trail Blazers,Terry Porter,Black Retro,S,0
+Portland Trail Blazers,Terry Porter,Black Retro,XL,0
+Portland Trail Blazers,Terry Porter,Black Retro,XXL,0
+San Antonio Spurs,Tim Duncan,White,L,1
+San Antonio Spurs,Tim Duncan,White,M,0
+San Antonio Spurs,Tim Duncan,White,S,0
+San Antonio Spurs,Tim Duncan,White,XL,0
+San Antonio Spurs,Tim Duncan,White,XXL,0
+San Antonio Spurs,Tim Duncan,Camou,L,0
+San Antonio Spurs,Tim Duncan,Camou,M,0
+San Antonio Spurs,Tim Duncan,Camou,S,0
+San Antonio Spurs,Tim Duncan,Camou,XL,1
+San Antonio Spurs,Tim Duncan,Camou,XXL,0
+San Antonio Spurs,Kawhi Leonard,Black,L,0
+San Antonio Spurs,Kawhi Leonard,Black,M,1
+San Antonio Spurs,Kawhi Leonard,Black,S,3
+San Antonio Spurs,Kawhi Leonard,Black,XL,0
+San Antonio Spurs,Kawhi Leonard,Black,XXL,0
+San Antonio Spurs,Kawhi Leonard,Grey,L,0
+San Antonio Spurs,Kawhi Leonard,Grey,M,1
+San Antonio Spurs,Kawhi Leonard,Grey,S,1
+San Antonio Spurs,Kawhi Leonard,Grey,XL,0
+San Antonio Spurs,Kawhi Leonard,Grey,XXL,0
+San Antonio Spurs,Kawhi Leonard,White,L,0
+San Antonio Spurs,Kawhi Leonard,White,M,4
+San Antonio Spurs,Kawhi Leonard,White,S,1
+San Antonio Spurs,Kawhi Leonard,White,XL,0
+San Antonio Spurs,Kawhi Leonard,White,XXL,0
+San Antonio Spurs,Kawhi Leonard,Black Logo,L,0
+San Antonio Spurs,Kawhi Leonard,Black Logo,M,1
+San Antonio Spurs,Kawhi Leonard,Black Logo,S,0
+San Antonio Spurs,Kawhi Leonard,Black Logo,XL,0
+San Antonio Spurs,Kawhi Leonard,Black Logo,XXL,0
+San Antonio Spurs,Kawhi Leonard,Camou,L,0
+San Antonio Spurs,Kawhi Leonard,Camou,M,1
+San Antonio Spurs,Kawhi Leonard,Camou,S,1
+San Antonio Spurs,Kawhi Leonard,Camou,XL,0
+San Antonio Spurs,Kawhi Leonard,Camou,XXL,0
+San Antonio Spurs,Kawhi Leonard,Xmas Black,L,0
+San Antonio Spurs,Kawhi Leonard,Xmas Black,M,1
+San Antonio Spurs,Kawhi Leonard,Xmas Black,S,1
+San Antonio Spurs,Kawhi Leonard,Xmas Black,XL,0
+San Antonio Spurs,Kawhi Leonard,Xmas Black,XXL,0
+San Antonio Spurs,Kawhi Leonard,White Nike,L,1
+San Antonio Spurs,Kawhi Leonard,White Nike,M,1
+San Antonio Spurs,Kawhi Leonard,White Nike,S,1
+San Antonio Spurs,Kawhi Leonard,White Nike,XL,0
+San Antonio Spurs,Kawhi Leonard,White Nike,XXL,0
+San Antonio Spurs,Kawhi Leonard,Black Nike,L,2
+San Antonio Spurs,Kawhi Leonard,Black Nike,M,1
+San Antonio Spurs,Kawhi Leonard,Black Nike,S,1
+San Antonio Spurs,Kawhi Leonard,Black Nike,XL,0
+San Antonio Spurs,Kawhi Leonard,Black Nike,XXL,0
+Toronto Raptors,Demar Derozan,Red,L,0
+Toronto Raptors,Demar Derozan,Red,M,1
+Toronto Raptors,Demar Derozan,Red,S,0
+Toronto Raptors,Demar Derozan,Red,XL,0
+Toronto Raptors,Demar Derozan,Red,XXL,0
+Toronto Raptors,Kyle Lowry,Red,L,0
+Toronto Raptors,Kyle Lowry,Red,M,1
+Toronto Raptors,Kyle Lowry,Red,S,0
+Toronto Raptors,Kyle Lowry,Red,XL,0
+Toronto Raptors,Kyle Lowry,Red,XXL,0
+Toronto Raptors,Kyle Lowry,White,L,0
+Toronto Raptors,Kyle Lowry,White,M,0
+Toronto Raptors,Kyle Lowry,White,S,1
+Toronto Raptors,Kyle Lowry,White,XL,0
+Toronto Raptors,Kyle Lowry,White,XXL,0
+Phoenix Suns,Devin Booker,White,L,1
+Phoenix Suns,Devin Booker,White,M,1
+Phoenix Suns,Devin Booker,White,S,0
+Phoenix Suns,Devin Booker,White,XL,0
+Phoenix Suns,Devin Booker,White,XXL,0
+Phoenix Suns,Devin Booker,Orange,L,0
+Phoenix Suns,Devin Booker,Orange,M,0
+Phoenix Suns,Devin Booker,Orange,S,0
+Phoenix Suns,Devin Booker,Orange,XL,1
+Phoenix Suns,Devin Booker,Orange,XXL,0
+Milwaukee Bucks,Jabari Parker,Black,L,1
+Milwaukee Bucks,Jabari Parker,Black,M,0
+Milwaukee Bucks,Jabari Parker,Black,S,0
+Milwaukee Bucks,Jabari Parker,Black,XL,0
+Milwaukee Bucks,Jabari Parker,Black,XXL,0
+Milwaukee Bucks,Jabari Parker,Green,L,0
+Milwaukee Bucks,Jabari Parker,Green,M,1
+Milwaukee Bucks,Jabari Parker,Green,S,1
+Milwaukee Bucks,Jabari Parker,Green,XL,0
+Milwaukee Bucks,Jabari Parker,Green,XXL,0
+Milwaukee Bucks,Giannis Antetokounmpo,White,L,0
+Milwaukee Bucks,Giannis Antetokounmpo,White,M,1
+Milwaukee Bucks,Giannis Antetokounmpo,White,S,0
+Milwaukee Bucks,Giannis Antetokounmpo,White,XL,0
+Milwaukee Bucks,Giannis Antetokounmpo,White,XXL,0
+Milwaukee Bucks,Giannis Antetokounmpo,White Nike,L,0
+Milwaukee Bucks,Giannis Antetokounmpo,White Nike,M,1
+Milwaukee Bucks,Giannis Antetokounmpo,White Nike,S,0
+Milwaukee Bucks,Giannis Antetokounmpo,White Nike,XL,0
+Milwaukee Bucks,Giannis Antetokounmpo,White Nike,XXL,0
+Milwaukee Bucks,Giannis Antetokounmpo,Black Nike,L,1
+Milwaukee Bucks,Giannis Antetokounmpo,Black Nike,M,1
+Milwaukee Bucks,Giannis Antetokounmpo,Black Nike,S,2
+Milwaukee Bucks,Giannis Antetokounmpo,Black Nike,XL,0
+Milwaukee Bucks,Giannis Antetokounmpo,Black Nike,XXL,0
+Milwaukee Bucks,Giannis Antetokounmpo,Green Nike,L,0
+Milwaukee Bucks,Giannis Antetokounmpo,Green Nike,M,1
+Milwaukee Bucks,Giannis Antetokounmpo,Green Nike,S,0
+Milwaukee Bucks,Giannis Antetokounmpo,Green Nike,XL,0
+Milwaukee Bucks,Giannis Antetokounmpo,Green Nike,XXL,0
+New Orleans Pelicans,DeMarcus Cousins,White,L,0
+New Orleans Pelicans,DeMarcus Cousins,White,M,1
+New Orleans Pelicans,DeMarcus Cousins,White,S,0
+New Orleans Pelicans,DeMarcus Cousins,White,XL,0
+New Orleans Pelicans,DeMarcus Cousins,White,XXL,0
+New Orleans Pelicans,Anthony Davis,Blue,L,0
+New Orleans Pelicans,Anthony Davis,Blue,M,1
+New Orleans Pelicans,Anthony Davis,Blue,S,0
+New Orleans Pelicans,Anthony Davis,Blue,XL,0
+New Orleans Pelicans,Anthony Davis,Blue,XXL,0
+Irish,LeBron James,Green,L,0
+Irish,LeBron James,Green,M,1
+Irish,LeBron James,Green,S,1
+Irish,LeBron James,Green,XL,0
+Irish,LeBron James,Green,XXL,0
+Irish,LeBron James,Gold,L,0
+Irish,LeBron James,Gold,M,1
+Irish,LeBron James,Gold,S,0
+Irish,LeBron James,Gold,XL,0
+Irish,LeBron James,Gold,XXL,0
+USA,DeMarcus Cousins,Blue,L,0
+USA,DeMarcus Cousins,Blue,M,1
+USA,DeMarcus Cousins,Blue,S,0
+USA,DeMarcus Cousins,Blue,XL,0
+USA,DeMarcus Cousins,Blue,XXL,0
+All-Star 1617,Stephen Curry,West,L,0
+All-Star 1617,Stephen Curry,West,M,1
+All-Star 1617,Stephen Curry,West,S,0
+All-Star 1617,Stephen Curry,West,XL,0
+All-Star 1617,Stephen Curry,West,XXL,0
+All-Star 1617,LeBron James,East,L,0
+All-Star 1617,LeBron James,East,M,1
+All-Star 1617,LeBron James,East,S,0
+All-Star 1617,LeBron James,East,XL,0
+All-Star 1617,LeBron James,East,XXL,0
+All-Star 1617,Russell Westbrook,West,L,0
+All-Star 1617,Russell Westbrook,West,M,1
+All-Star 1617,Russell Westbrook,West,S,0
+All-Star 1617,Russell Westbrook,West,XL,0
+All-Star 1617,Russell Westbrook,West,XXL,0
+Utah Jazz,Gordon Hayward,Blue,L,0
+Utah Jazz,Gordon Hayward,Blue,M,1
+Utah Jazz,Gordon Hayward,Blue,S,0
+Utah Jazz,Gordon Hayward,Blue,XL,0
+Utah Jazz,Gordon Hayward,Blue,XXL,0
+Miami Heat,Ray Allen,Red,L,0
+Miami Heat,Ray Allen,Red,M,1
+Miami Heat,Ray Allen,Red,S,0
+Miami Heat,Ray Allen,Red,XL,0
+Miami Heat,Ray Allen,Red,XXL,0
+Orlando Magic,Penny Hardaway,Retro,L,0
+Orlando Magic,Penny Hardaway,Retro,M,1
+Orlando Magic,Penny Hardaway,Retro,S,1
+Orlando Magic,Penny Hardaway,Retro,XL,0
+Orlando Magic,Penny Hardaway,Retro,XXL,0
+Orlando Magic,Shaquille O'Neal,Retro,L,0
+Orlando Magic,Shaquille O'Neal,Retro,M,0
+Orlando Magic,Shaquille O'Neal,Retro,S,1
+Orlando Magic,Shaquille O'Neal,Retro,XL,0
+Orlando Magic,Shaquille O'Neal,Retro,XXL,0
+All-Star 1112,Kobe Bryant,West,L,0
+All-Star 1112,Kobe Bryant,West,M,0
+All-Star 1112,Kobe Bryant,West,S,1
+All-Star 1112,Kobe Bryant,West,XL,0
+All-Star 1112,Kobe Bryant,West,XXL,0
+All-Star 0203,Kobe Bryant,West,L,0
+All-Star 0203,Kobe Bryant,West,M,0
+All-Star 0203,Kobe Bryant,West,S,1
+All-Star 0203,Kobe Bryant,West,XL,0
+All-Star 0203,Kobe Bryant,West,XXL,0
+Georgetown,Allen Iverson,Blue,L,0
+Georgetown,Allen Iverson,Blue,M,1
+Georgetown,Allen Iverson,Blue,S,1
+Georgetown,Allen Iverson,Blue,XL,0
+Georgetown,Allen Iverson,Blue,XXL,0
+USA 2012,Kobe Bryant,Blue,L,0
+USA 2012,Kobe Bryant,Blue,M,1
+USA 2012,Kobe Bryant,Blue,S,0
+USA 2012,Kobe Bryant,Blue,XL,0
+USA 2012,Kobe Bryant,Blue,XXL,0
+Duke,Kyrie Irving,White,L,0
+Duke,Kyrie Irving,White,M,2
+Duke,Kyrie Irving,White,S,0
+Duke,Kyrie Irving,White,XL,0
+Duke,Kyrie Irving,White,XXL,0
+Denver Nuggets,Nikola Jokic,Blue Nike,L,0
+Denver Nuggets,Nikola Jokic,Blue Nike,M,1
+Denver Nuggets,Nikola Jokic,Blue Nike,S,0
+Denver Nuggets,Nikola Jokic,Blue Nike,XL,0
+Denver Nuggets,Nikola Jokic,Blue Nike,XXL,0
+Syracuse,Carmelo Anthony,Black,L,0
+Syracuse,Carmelo Anthony,Black,M,1
+Syracuse,Carmelo Anthony,Black,S,0
+Syracuse,Carmelo Anthony,Black,XL,0
+Syracuse,Carmelo Anthony,Black,XXL,0
+Syracuse,Carmelo Anthony,Orange,L,0
+Syracuse,Carmelo Anthony,Orange,M,1
+Syracuse,Carmelo Anthony,Orange,S,0
+Syracuse,Carmelo Anthony,Orange,XL,0
+Syracuse,Carmelo Anthony,Orange,XXL,0
+Detroit Pistons,Reggie Jackson,White,L,0
+Detroit Pistons,Reggie Jackson,White,M,0
+Detroit Pistons,Reggie Jackson,White,S,1
+Detroit Pistons,Reggie Jackson,White,XL,0
+Detroit Pistons,Reggie Jackson,White,XXL,0
+Charlotte Hornets,Kemba Walker,Purple,L,0
+Charlotte Hornets,Kemba Walker,Purple,M,1
+Charlotte Hornets,Kemba Walker,Purple,S,1
+Charlotte Hornets,Kemba Walker,Purple,XL,0
+Charlotte Hornets,Kemba Walker,Purple,XXL,0
+Golden State Warriors,Stephen Curry,Blue,L,1
+Golden State Warriors,Stephen Curry,Blue,M,1
+Golden State Warriors,Stephen Curry,Blue,S,1
+Golden State Warriors,Stephen Curry,Blue,XL,0
+Golden State Warriors,Stephen Curry,Blue,XXL,0
+Golden State Warriors,Stephen Curry,White,L,0
+Golden State Warriors,Stephen Curry,White,M,3
+Golden State Warriors,Stephen Curry,White,S,0
+Golden State Warriors,Stephen Curry,White,XL,0
+Golden State Warriors,Stephen Curry,White,XXL,0
+Golden State Warriors,Stephen Curry,Yellow,L,0
+Golden State Warriors,Stephen Curry,Yellow,M,1
+Golden State Warriors,Stephen Curry,Yellow,S,0
+Golden State Warriors,Stephen Curry,Yellow,XL,0
+Golden State Warriors,Stephen Curry,Yellow,XXL,0
+Golden State Warriors,Stephen Curry,Xmas Blue,L,0
+Golden State Warriors,Stephen Curry,Xmas Blue,M,1
+Golden State Warriors,Stephen Curry,Xmas Blue,S,0
+Golden State Warriors,Stephen Curry,Xmas Blue,XL,0
+Golden State Warriors,Stephen Curry,Xmas Blue,XXL,0
+Golden State Warriors,Stephen Curry,CNY,L,2
+Golden State Warriors,Stephen Curry,CNY,M,0
+Golden State Warriors,Stephen Curry,CNY,S,0
+Golden State Warriors,Stephen Curry,CNY,XL,0
+Golden State Warriors,Stephen Curry,CNY,XXL,0
+Golden State Warriors,Stephen Curry,White Nike,L,0
+Golden State Warriors,Stephen Curry,White Nike,M,2
+Golden State Warriors,Stephen Curry,White Nike,S,0
+Golden State Warriors,Stephen Curry,White Nike,XL,0
+Golden State Warriors,Stephen Curry,White Nike,XXL,0
+Golden State Warriors,Stephen Curry,Blue Nike,L,1
+Golden State Warriors,Stephen Curry,Blue Nike,M,2
+Golden State Warriors,Stephen Curry,Blue Nike,S,1
+Golden State Warriors,Stephen Curry,Blue Nike,XL,0
+Golden State Warriors,Stephen Curry,Blue Nike,XXL,0
+Golden State Warriors,Stephen Curry,Black Nike,L,2
+Golden State Warriors,Stephen Curry,Black Nike,M,2
+Golden State Warriors,Stephen Curry,Black Nike,S,1
+Golden State Warriors,Stephen Curry,Black Nike,XL,0
+Golden State Warriors,Stephen Curry,Black Nike,XXL,0
+Golden State Warriors,Kevin Durant,Blue,L,1
+Golden State Warriors,Kevin Durant,Blue,M,2
+Golden State Warriors,Kevin Durant,Blue,S,1
+Golden State Warriors,Kevin Durant,Blue,XL,0
+Golden State Warriors,Kevin Durant,Blue,XXL,0
+Golden State Warriors,Kevin Durant,White,L,0
+Golden State Warriors,Kevin Durant,White,M,2
+Golden State Warriors,Kevin Durant,White,S,1
+Golden State Warriors,Kevin Durant,White,XL,0
+Golden State Warriors,Kevin Durant,White,XXL,0
+Golden State Warriors,Kevin Durant,Yellow,L,0
+Golden State Warriors,Kevin Durant,Yellow,M,1
+Golden State Warriors,Kevin Durant,Yellow,S,1
+Golden State Warriors,Kevin Durant,Yellow,XL,0
+Golden State Warriors,Kevin Durant,Yellow,XXL,0
+Golden State Warriors,Kevin Durant,White Nike,L,1
+Golden State Warriors,Kevin Durant,White Nike,M,1
+Golden State Warriors,Kevin Durant,White Nike,S,1
+Golden State Warriors,Kevin Durant,White Nike,XL,0
+Golden State Warriors,Kevin Durant,White Nike,XXL,0
+Golden State Warriors,Kevin Durant,Blue Nike,L,1
+Golden State Warriors,Kevin Durant,Blue Nike,M,2
+Golden State Warriors,Kevin Durant,Blue Nike,S,1
+Golden State Warriors,Kevin Durant,Blue Nike,XL,0
+Golden State Warriors,Kevin Durant,Blue Nike,XXL,0
+Golden State Warriors,Kevin Durant,Black Nike,L,1
+Golden State Warriors,Kevin Durant,Black Nike,M,1
+Golden State Warriors,Kevin Durant,Black Nike,S,2
+Golden State Warriors,Kevin Durant,Black Nike,XL,0
+Golden State Warriors,Kevin Durant,Black Nike,XXL,0
+Golden State Warriors,Draymond Green,Blue,L,0
+Golden State Warriors,Draymond Green,Blue,M,1
+Golden State Warriors,Draymond Green,Blue,S,1
+Golden State Warriors,Draymond Green,Blue,XL,0
+Golden State Warriors,Draymond Green,Blue,XXL,0
+Golden State Warriors,Draymond Green,Yellow,L,0
+Golden State Warriors,Draymond Green,Yellow,M,1
+Golden State Warriors,Draymond Green,Yellow,S,1
+Golden State Warriors,Draymond Green,Yellow,XL,0
+Golden State Warriors,Draymond Green,Yellow,XXL,0
+Golden State Warriors,Klay Thompson,Blue,L,0
+Golden State Warriors,Klay Thompson,Blue,M,1
+Golden State Warriors,Klay Thompson,Blue,S,1
+Golden State Warriors,Klay Thompson,Blue,XL,0
+Golden State Warriors,Klay Thompson,Blue,XXL,0
+Golden State Warriors,Klay Thompson,White,L,0
+Golden State Warriors,Klay Thompson,White,M,0
+Golden State Warriors,Klay Thompson,White,S,1
+Golden State Warriors,Klay Thompson,White,XL,0
+Golden State Warriors,Klay Thompson,White,XXL,0
+Golden State Warriors,Klay Thompson,Blue Nike,L,0
+Golden State Warriors,Klay Thompson,Blue Nike,M,1
+Golden State Warriors,Klay Thompson,Blue Nike,S,1
+Golden State Warriors,Klay Thompson,Blue Nike,XL,0
+Golden State Warriors,Klay Thompson,Blue Nike,XXL,0
+Boston Celtics,Kyrie Irving,Green White Nike,L,1
+Boston Celtics,Kyrie Irving,Green White Nike,M,4
+Boston Celtics,Kyrie Irving,Green White Nike,S,2
+Boston Celtics,Kyrie Irving,Green White Nike,XL,1
+Boston Celtics,Kyrie Irving,Green White Nike,XXL,0
+Boston Celtics,Kyrie Irving,White Nike,L,1
+Boston Celtics,Kyrie Irving,White Nike,M,2
+Boston Celtics,Kyrie Irving,White Nike,S,2
+Boston Celtics,Kyrie Irving,White Nike,XL,0
+Boston Celtics,Kyrie Irving,White Nike,XXL,0
+Boston Celtics,Kyrie Irving,Green Black Nike,L,0
+Boston Celtics,Kyrie Irving,Green Black Nike,M,0
+Boston Celtics,Kyrie Irving,Green Black Nike,S,0
+Boston Celtics,Kyrie Irving,Green Black Nike,XL,0
+Boston Celtics,Kyrie Irving,Green Black Nike,XXL,0
+Boston Celtics,Kyrie Irving,Black Nike,L,5
+Boston Celtics,Kyrie Irving,Black Nike,M,1
+Boston Celtics,Kyrie Irving,Black Nike,S,2
+Boston Celtics,Kyrie Irving,Black Nike,XL,1
+Boston Celtics,Kyrie Irving,Black Nike,XXL,0
+Boston Celtics,Isaiah Thomas,Green,L,0
+Boston Celtics,Isaiah Thomas,Green,M,1
+Boston Celtics,Isaiah Thomas,Green,S,1
+Boston Celtics,Isaiah Thomas,Green,XL,0
+Boston Celtics,Isaiah Thomas,Green,XXL,0
+Boston Celtics,Isaiah Thomas,Green Black,L,0
+Boston Celtics,Isaiah Thomas,Green Black,M,1
+Boston Celtics,Isaiah Thomas,Green Black,S,2
+Boston Celtics,Isaiah Thomas,Green Black,XL,0
+Boston Celtics,Isaiah Thomas,Green Black,XXL,0
+Boston Celtics,Larry Bird,Green,L,0
+Boston Celtics,Larry Bird,Green,M,1
+Boston Celtics,Larry Bird,Green,S,0
+Boston Celtics,Larry Bird,Green,XL,0
+Boston Celtics,Larry Bird,Green,XXL,0
+Boston Celtics,Gordon Hayward,Green White Nike,L,2
+Boston Celtics,Gordon Hayward,Green White Nike,M,1
+Boston Celtics,Gordon Hayward,Green White Nike,S,1
+Boston Celtics,Gordon Hayward,Green White Nike,XL,0
+Boston Celtics,Gordon Hayward,Green White Nike,XXL,0
+Boston Celtics,Gordon Hayward,White Nike,L,0
+Boston Celtics,Gordon Hayward,White Nike,M,1
+Boston Celtics,Gordon Hayward,White Nike,S,1
+Boston Celtics,Gordon Hayward,White Nike,XL,0
+Boston Celtics,Gordon Hayward,White Nike,XXL,0
+Boston Celtics,Ray Allen,Green White,L,0
+Boston Celtics,Ray Allen,Green White,M,0
+Boston Celtics,Ray Allen,Green White,S,1
+Boston Celtics,Ray Allen,Green White,XL,0
+Boston Celtics,Ray Allen,Green White,XXL,0
+Boston Celtics,Jayson Tatum,Green White,L,0
+Boston Celtics,Jayson Tatum,Green White,M,1
+Boston Celtics,Jayson Tatum,Green White,S,0
+Boston Celtics,Jayson Tatum,Green White,XL,0
+Boston Celtics,Jayson Tatum,Green White,XXL,0
+Boston Celtics,Jayson Tatum,Green White Nike,L,0
+Boston Celtics,Jayson Tatum,Green White Nike,M,0
+Boston Celtics,Jayson Tatum,Green White Nike,S,2
+Boston Celtics,Jayson Tatum,Green White Nike,XL,0
+Boston Celtics,Jayson Tatum,Green White Nike,XXL,0
+Boston Celtics,Jayson Tatum,White Nike,L,0
+Boston Celtics,Jayson Tatum,White Nike,M,1
+Boston Celtics,Jayson Tatum,White Nike,S,0
+Boston Celtics,Jayson Tatum,White Nike,XL,0
+Boston Celtics,Jayson Tatum,White Nike,XXL,0
+Boston Celtics,Jayson Tatum,Green Black Nike,L,0
+Boston Celtics,Jayson Tatum,Green Black Nike,M,1
+Boston Celtics,Jayson Tatum,Green Black Nike,S,0
+Boston Celtics,Jayson Tatum,Green Black Nike,XL,0
+Boston Celtics,Jayson Tatum,Green Black Nike,XXL,0
+Boston Celtics,Jaylen Brown,Green White Nike,L,1
+Boston Celtics,Jaylen Brown,Green White Nike,M,2
+Boston Celtics,Jaylen Brown,Green White Nike,S,2
+Boston Celtics,Jaylen Brown,Green White Nike,XL,0
+Boston Celtics,Jaylen Brown,Green White Nike,XXL,0
+Boston Celtics,Jaylen Brown,White Nike,L,1
+Boston Celtics,Jaylen Brown,White Nike,M,1
+Boston Celtics,Jaylen Brown,White Nike,S,1
+Boston Celtics,Jaylen Brown,White Nike,XL,0
+Boston Celtics,Jaylen Brown,White Nike,XXL,0

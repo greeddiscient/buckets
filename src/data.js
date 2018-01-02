@@ -1,9 +1,36 @@
 var teamsData=[
-
-  {name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["White Home","Red Away"]      },
-  {name: "Golden State Warriors", players:["Stephen Curry","Klay Thompson"], colorways:["White Home","Blue Away"]      },
-  {name: "Oklahoma City Thunder", players:["Russell Westbrook","Carmelo Anthony","Paul George"], colorways:["White Home","Blue Away"]      }
-
+  {name: "All-Star 0203", players:["Kobe Bryant"], colorways:["West"]      },
+  {name: "All-Star 1617", players:["Stephen Curry","LeBron James","Russell Westbrook"], colorways:["West","East"]      },
+  {name: "All-Star 1112", players:["Kobe Bryant"], colorways:["West"]      },
+  {name: "Boston Celtics", players:["Kyrie Irving","Isaiah Thomas","Larry Bird","Gordon Hayward","Ray Allen","Jayson Tatum","Jaylen Brown"], colorways:["Green White Nike","Green Black Nike","White Nike","Black Nike","Green","Green Black","Green White"]      },
+  {name: "Charlotte Hornets", players:["Kemba Walker"], colorways:["Purple"]      },
+  {name: "Chicago Bulls", players:["Michael Jordan","Dwayne Wade"], colorways:["White","Green","Black/Red","Black Chi","Red","Red Alt"]      },
+  {name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["White","Red","Blue","Black","Yellow","Xmas Red","Red Cavs","Blue1516", "Red Nike", "White Nike", "Black Nike"]      },
+  {name: "Denver Nuggets", players:["Nikola Jokic"], colorways:["Blue Nike"]      },
+  {name: "Detroit Pistons", players:["Reggie Jackson"], colorways:["White"]      },
+  {name: "Duke", players:["Kyrie Irving"], colorways:["White"]      },
+  {name: "Georgetown", players:["Allen Iverson"], colorways:["Blue"]      },
+  {name: "Golden State Warriors", players:["Stephen Curry","Kevin Durant","Draymond Green","Klay Thompson"], colorways:["Blue","White","Yellow","Xmas Blue","CNY","Blue Nike","White Nike","Black Nike"]      },
+  {name: "Houston Rockets", players:["James Harden","Chris Paul"], colorways:["Red Nike","White Nike","Black"]      },
+  {name: "Irish", players:["LeBron James"], colorways:["Green","Gold"]      },
+  {name: "LA Clippers", players:["Blake Griffin","DeAndre Jordan","Chris Paul"], colorways:["White","Black"]      },
+  {name: "Los Angeles Lakers", players:["Kobe Bryant","D'Angelo Russell","Shaquille O'Neal","Lonzo Ball", "Kyle Kuzma"], colorways:["Purple","Yellow","Retro","Black","White Nike","Yellow Nike"]      },
+  {name: "Miami Heat", players:["Ray Allen"], colorways:["Red"]      },
+  {name: "Milwaukee Bucks", players:["Jabari Parker","Giannis Antetokounmpo"], colorways:["Black","Green","White","White Nike","Black Nike","Green Nike"]      },
+  {name: "Minnesota Timberwolves", players:["Jimmy Butler","Karl Anthony Towns","Andrew Wiggins"], colorways:["Blue","White Nike","Blue Nike"]      },
+  {name: "New Orleans Pelicans", players:["DeMarcus Cousins","Anthony Davis"], colorways:["White","Blue"]      },
+  {name: "New York Knicks", players:["Carmelo Anthony","Kristaps Porzingis"], colorways:["Blue","Blue Nike"]      },
+  {name: "Oklahoma City Thunder", players:["Russell Westbrook","Carmelo Anthony","Paul George"], colorways:["Blue Nike", "White Nike", "Black Nike","Orange Nike","Blue"]      },
+  {name: "Orlando Magic", players:["Shaquille O'Neal","Penny Hardaway"], colorways:["Retro"]      },
+  {name: "Philadelphia 76ers", players:["Ben Simmons","Allen Iverson","Joel Embiid"], colorways:["Blue","Black","Blue Nike","White Nike"]      },
+  {name: "Phoenix Suns", players:["Devin Booker"], colorways:["White","Orange"]      },
+  {name: "Portland Trail Blazers", players:["Damian Lillard","Terry Porter"], colorways:["Black","Red","White Nike","Black Retro"]      },
+  {name: "San Antonio Spurs", players:["Tim Duncan","Kawhi Leonard"], colorways:["White","Camou","Black","Grey","Black Logo","Xmas Black","White Nike","Black Nike"]      },
+  {name: "Syracuse", players:["Carmelo Anthony"], colorways:["Black","Orange"]      },
+  {name: "Toronto Raptors", players:["Demar Derozan","Kyle Lowry"], colorways:["White","Red"]      },
+  {name: "USA", players:["DeMarcus Cousins"], colorways:["Blue"]      },
+  {name: "USA 2012", players:["Kobe Bryant"], colorways:["Blue"]      },
+  {name: "Utah Jazz", players:["Gordon Hayward"], colorways:["Blue"]      },
       ]
 
 
