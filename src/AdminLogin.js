@@ -41,17 +41,18 @@ class AdminLogin extends Component {
 
     return (
       <div className="AdminLogin">
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          Username:
-          <input type="text" value={this.state.userNameValue} onChange={this.userNameChange} />
-        </label>
-        <label>
-          Password:
-          <input type="password" value={this.state.passwordValue} onChange={this.passwordChange} />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
+        <h1>Buckets.SG Admin Login</h1>
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            Username:
+            <input type="text" value={this.state.userNameValue} onChange={this.userNameChange} />
+          </label>
+          <label>
+            Password:
+            <input type="password" value={this.state.passwordValue} onChange={this.passwordChange} />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
 
       </div>
     );
