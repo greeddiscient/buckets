@@ -5,7 +5,7 @@ var teamsData=[
   {name: "Boston Celtics", players:["Kyrie Irving","Isaiah Thomas","Larry Bird","Gordon Hayward","Ray Allen","Jayson Tatum","Jaylen Brown"], colorways:["Green White Nike","Green Black Nike","White Nike","Black Nike","Green","Green Black","Green White"]      },
   {name: "Charlotte Hornets", players:["Kemba Walker"], colorways:["Purple"]      },
   {name: "Chicago Bulls", players:["Michael Jordan","Dwayne Wade"], colorways:["White","Green","Black/Red","Black Chi","Red","Red Alt"]      },
-  {name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving"], colorways:["White","Red","Blue","Black","Yellow","Xmas Red","Red Cavs","Blue1516", "Red Nike", "White Nike", "Black Nike"]      },
+  {name: "Cleveland Cavaliers", players:["LeBron James","Kyrie Irving","Derrick Rose","JR Smith","Isaiah Thomas","Dwayne Wade","Kevin Love"], colorways:["White","Red","Blue","Black","Yellow","Xmas Red","Red Cavs","Blue1516", "Red Nike", "White Nike", "Black Nike"]      },
   {name: "Denver Nuggets", players:["Nikola Jokic"], colorways:["Blue Nike"]      },
   {name: "Detroit Pistons", players:["Reggie Jackson"], colorways:["White"]      },
   {name: "Duke", players:["Kyrie Irving"], colorways:["White"]      },
