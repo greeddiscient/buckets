@@ -33,7 +33,8 @@ class Admin extends Component {
       jerseysUpdate:[],
       filteredTeamValue: 'All Teams',
       searching: true,
-      saving: false
+      saving: false,
+      updatedJerseys: []
     };
     this.onCellChange=this.onCellChange.bind(this)
     this.updateStock= this.updateStock.bind(this)
@@ -59,6 +60,9 @@ class Admin extends Component {
 
   componentDidMount(){
     var that = this
+    var updates = JSON.parse(localStorage.getItem("updates"));
+    console.log("updates",updates)
+    this.setState({updatedJerseys: updates})
     axios.get('/api/jerseys')
     .then(function (response) {
       console.log(response.data);
@@ -112,6 +116,7 @@ class Admin extends Component {
   updateStock(index){
     var promises =[]
     var jerseyUpdateArray=this.state.jerseysUpdate
+    localStorage.setItem("updates", JSON.stringify(jerseyUpdateArray));
     this.setState({saving: true})
     for (var i = 0; i < jerseyUpdateArray.length; i++) {
         promises.push(
@@ -135,6 +140,29 @@ class Admin extends Component {
         alert("Stock Updated")
     });
   }
+  renderUpdates(){
+    var updates = this.state.updatedJerseys
+    if(updates === null){
+      return(
+        <p>You have no update</p>
+      )
+    }
+    else{
+      return(
+        <div className="updates">
+          <strong>You last updated:</strong>
+        {updates.map((update)=>(
+          <div>
+            <p>{update.team} {update.player} {update.colorway} {update.size} to {update.quantity} quantity</p>
+          </div>
+        ))}
+        </div>
+
+      )
+    }
+
+  }
+
   render() {
 
     return (
@@ -142,6 +170,11 @@ class Admin extends Component {
 
         <h1>Buckets.SG Inventory Manager</h1>
         {this.state.saving ? <FontAwesome name='spinner' size='2x' spin /> : null}
+
+        <div className="history">
+          {this.renderUpdates()}
+        </div>
+
         <div className="jersey-table">
           <label className="filterTeam">
             Filter by Team:

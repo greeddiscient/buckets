@@ -27,3 +27,9 @@ th {
     background-color: #4CAF50;
     color: white;
 }
+
+.updates{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
