@@ -30,8 +30,10 @@ class Admin extends Component {
     this.state = {
       jerseys: [],
       filteredJerseys: [],
+      jerseysUpdate:[],
       filteredTeamValue: 'All Teams',
-      searching: true
+      searching: true,
+      saving: false
     };
     this.onCellChange=this.onCellChange.bind(this)
     this.updateStock= this.updateStock.bind(this)
@@ -94,34 +96,52 @@ class Admin extends Component {
   }
   onCellChange(row,value){
     var jerseysArray=this.state.filteredJerseys
+    var jerseyUpdateArray= this.state.jerseysUpdate
     jerseysArray[row].quantity= value
-    this.setState({filteredJerseys: jerseysArray})
+    if(jerseyUpdateArray.includes(jerseysArray[row])){
+    }
+    else{
+      jerseyUpdateArray.push(jerseysArray[row])
+    }
+    this.setState({
+      filteredJerseys: jerseysArray,
+      jerseysUpdate: jerseyUpdateArray
+    })
   }
-  updateStock(index){
-    var that=this
-    axios.post('/api/update_stock', {
-      team: this.state.filteredJerseys[index].team,
-      player: this.state.filteredJerseys[index].player,
-      colorway: this.state.filteredJerseys[index].colorway,
-      size: this.state.filteredJerseys[index].size,
-      quantity: this.state.filteredJerseys[index].quantity
-    })
-    .then(function (response) {
-      console.log(response);
-      window.location.reload()
-      alert("Stock updated")
 
-    })
-    .catch(function (error) {
-      console.log(error);
-      alert("Error")
+  updateStock(index){
+    var promises =[]
+    var jerseyUpdateArray=this.state.jerseysUpdate
+    this.setState({saving: true})
+    for (var i = 0; i < jerseyUpdateArray.length; i++) {
+        promises.push(
+          axios.post('/api/update_stock', {
+            team: jerseyUpdateArray[i].team,
+            player: jerseyUpdateArray[i].player,
+            colorway: jerseyUpdateArray[i].colorway,
+            size: jerseyUpdateArray[i].size,
+            quantity: jerseyUpdateArray[i].quantity
+          })
+        )
+    }
+    var that=this
+    console.log("promises", promises)
+    axios.all(promises).then(function(results) {
+        results.forEach(function(response) {
+
+        })
+        that.setState({saving: false})
+        window.location.reload()
+        alert("Stock Updated")
     });
   }
   render() {
 
     return (
       <div className="admin">
+
         <h1>Buckets.SG Inventory Manager</h1>
+        {this.state.saving ? <FontAwesome name='spinner' size='2x' spin /> : null}
         <div className="jersey-table">
           <label className="filterTeam">
             Filter by Team:
@@ -162,6 +182,7 @@ class Admin extends Component {
             </tbody>
           </table>
           {this.state.searching ? <FontAwesome name='spinner' size='2x' spin /> : null}
+
         </div>
 
       </div>
